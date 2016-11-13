@@ -1,0 +1,161 @@
+body{
+    background-image: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/natural_paper.png");
+}
+.navbar-wrapper{
+    font-family: "Open Sans";
+
+}
+.fa-user{
+    color: white;
+    font-size: 40px;
+    margin-top: 3px;
+    margin-right: 2px;
+}
+.views-field{
+    font-size: 40px;
+}
+.views-field-field-service-image:before {
+    background:rgba(99,99,99,0.2);
+    content:'';
+    display:inline-block;
+    height:1px;
+    margin-left:-100%;
+    margin-right:13px;
+    vertical-align:-2px;
+    width:25%;
+}
+.views-field-field-service-image:after {
+    background:rgba(99,99,99,0.2);
+    content:'';
+    display:inline-block;
+    height:1px;
+    margin-left:13px;
+    margin-right:-100%;
+    vertical-align:-2px;
+    width:25%;
+}
+
+.marketing{
+    font-family:"Trebuchet MS" ;
+    font-size: 15px;
+}
+.marketing h2{
+    font-family:"Medula One" ;
+    font-size: 70px;
+    text-align: center;
+}
+.tussen{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 4px solid rgba(99,99,99,0.2);
+    width: 80%;
+}
+.signup{
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-bottom: 15%;
+
+}
+.signup h2{
+    font-size: 90px;
+    margin-bottom: 30px;
+}
+/*.singup-info{
+    background: #ffffff;
+    padding: 3% 3% 3% 3%;
+}*/
+.users input.text {
+    width: 100%;
+}
+input.text {
+    width: 49.6%;
+    margin-bottom: 1em;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    outline: none;
+    border: none;
+    background: #fff;
+    color: #999;
+    font-weight: 600;
+    font-size: .8em;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -o-border-radius:4px;
+}
+.users input[type="password"] {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    background: #fff;
+    color: #999;
+    font-weight: 600;
+    font-size: .8em;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    -o-border-radius:4px;
+}
+input[type="submit"] {
+    padding: 12px 33px;
+    background: #828282;
+    margin: 3% 0 0 29%;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    float: right;
+}
+input[type="submit"]:hover {
+    background: white;
+    color: black;
+}
+/*Menu*/
+.navbar-inverse .navbar-nav a{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+.navbar-inverse .navbar-nav a:hover{
+    background-color: transparent;
+    border: 3px solid #ffffff;
+}
+.navbar-inverse .navbar-nav .active>a{
+    background-color: transparent;
+    border: 3px solid #ffffff;
+}
+.navbar-inverse .navbar-nav .active>a:hover{
+    background-color: transparent;
+    border: 3px solid #ffffff;
+}
+.navbar-inverse{
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color:white;
+
+}
+#navbar{
+    margin-top: 10px;
+}
+#navbar li a{
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-left: 10px;
+     margin-left: 10px;
+ }
+#login a{
+    font-size: 15px;
+    margin-left: auto;
+    border: none;
+}
+#login a:hover{
+   text-decoration: underline;
+}
+.navbar-inverse{
+    border-color:transparent;
+}
